@@ -1,0 +1,38 @@
+.team {
+    margin: 0 auto;
+}
+
+.team-inner {
+    @include container;
+}
+
+.team-wrap {
+    display: flex;
+    margin: 0 81px;
+}
+
+.team-item {
+    width: 25%;
+    padding: 16px;
+}
+
+.team-link {
+    display: block;
+    position: relative;
+    color: #fbf2da;
+}
+
+.team-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(21, 43, 60, 0.7)
+}
+
+.team-img {
+    display: block;
+    width: 100%;
+}

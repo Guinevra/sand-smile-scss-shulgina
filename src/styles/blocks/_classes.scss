@@ -1,0 +1,87 @@
+.classes {
+    display: flex;
+    margin: 0 auto;
+}
+
+.classes-inner {
+    @include container;
+}
+
+.classes-info {
+    display: flex;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #d46240;
+}
+
+.classes h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.classes-list {
+    width: 33.33%;
+    margin-bottom: 100px;
+    padding: 0 15px;
+}
+
+.classes-main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #000;
+}
+
+.classes-list {
+    flex-grow: 1;
+}
+
+.classes-item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #152b3c;
+    padding: 0;
+}
+
+.classes-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #152b3c;
+}
+
+.price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #d46240;
+}
+
+.btn {
+    display: block;
+    margin: 144px 121px 33px 121px;
+    padding: 15px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    border: 3px solid #d46240;
+    border-radius: 5px;
+    background-color: #d46240;
+    color: #fff;
+    cursor: pointer;
+}
