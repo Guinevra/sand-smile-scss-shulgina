@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sand-smile-shugina</title>
+    <title>sand-smiles-scss-shugina</title>
     <link rel="stylesheet" href="style/style.css" />
 </head>
 
@@ -32,8 +32,8 @@
     <main>
         <section class="promo">
             <div class="promo-inner">
-                <div class="background">
-                    <div class="promo-wrap">
+                <div class="promo-wrap">
+                    <div style="background-image: url('images/promo-background.png');">
                         <div class="promo-info">
                             <h1>SandSmile</h1>
                             <p class="promo-text">
@@ -44,11 +44,16 @@
                 </div>
             </div>
         </section>
+
         <section class="classes">
             <div class="classes-inner">
-                <h2>Мастер-классы</h2>
-
+                <div class="classes-title">
+                    <h2>Мастер-классы</h2>
+                </div>
                 <div class="classes-info">
+                    <!-- <div class="classes-title">
+                        <h2>Мастер-классы</h2>
+                    </div> -->
                     <div class="classes-list">
                         <div class="classes-image">
                             <img src="images\two children.png" alt="">
@@ -130,6 +135,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
         </section>
 
@@ -139,17 +145,99 @@
                     <div class="slider-title">
                         <h2>Фото с мероприятий</h2>
                     </div>
+                    <!-- 
+                    <ul id="sb-slider" class="sb-slider">
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Creative Lifesaver</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="images/2.jpg" alt="image2"/></a>
+                            <div class="sb-description">
+                                <h3>Honest Entertainer</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Brave Astronaut</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Affectionate Decision Maker</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Faithful Investor</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Groundbreaking Artist</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+                            <div class="sb-description">
+                                <h3>Selfless Philantropist</h3>
+                            </div>
+                        </li>
+                    </ul> -->
+                    <!-- <div id="nav-arrows" class="nav-arrows">
+                        <a href="#">Next</a>
+                        <a href="#">Previous</a>
+                    </div> -->
+
+
+
+
+
+
+
+
+
+
+
                     <div class="slider-content">
                         <div class="slider-image-list">
                             <div class="row-item-right">
-                                <img src="" alt="">
+                                <img src="icons/row_right.svg" alt="">
                             </div>
                             <div class="row-item-left">
-                                <img src="" alt="">
+                                <img src="icons/row_light.svg" alt="">
                                 <div class="slider-image">
-                                    <div><img src="images/slider-items.jpg" alt=""></div> <img src="" alt="">
+                                    <div><img src="images/slider-items.jpg" alt="">ghg</div>
                                     <div class=slider-dots>
-                                        <ul>
+
+                                        <!-- <div class="form-contact-field form-contact-field-half">
+                                            <label for="name" class="form-contact-label">Имя</label>
+                                            <input id="name" type="text" class="form-contact-input">
+                                        </div>
+                                        <div class="form-contact-field form-contact-field-half">
+                                            <label for="phone" class="form-contact-label">Телефон</label>
+                                            <input id="phone" type="text" class="form-contact-input">
+                                        </div>
+                                        <div class="form-contact-field">
+                                            <label for="name" class="form-contact-label">Чаго надо?</label>
+                                            <textarea name="text" id="" cols="30" rows="10"></textarea>
+                                        </div>
+                                        <div class="form-contact-field">
+                                            <input id="confirm" type="checkbox" class="form-contact-checkbox">
+                                            <label for="confirm" class="form-contact-label">Даю согласие на обработку персональных данных с соответствии с <a href="политикой обработки персональных данных" class="perconal-politics"> политикой обработки персональных данных </a></label>
+                                        </div> -->
+
+
+
+
+
+                                        <!-- <ul>
                                             <li class="slider-dots-item">
                                                 <img src="icons/Ellipse_grey.svg" alt="">
                                             </li>
@@ -162,26 +250,14 @@
                                             <li class="classes-item">
                                                 <img src="icons/Ellipse_grey.svg" alt="">
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                 </div>
-
-
-
-
-
                             </div>
-
-
                         </div>
-
                     </div>
-
-
                 </div>
-
         </section>
-
 
         <section class="locations">
             <div class="locations-inner">
@@ -240,11 +316,12 @@
                             <input id="name" type="text" class="form-contact-input">
                         </div>
                         <div class="form-contact-field form-contact-field-half">
-                            <label for="phone-number" class="form-contact-label">Телефон</label>
-                            <input id="phone-number" type="text" class="form-contact-input">
+                            <label for="phone" class="form-contact-label">Телефон</label>
+                            <input id="phone" type="text" class="form-contact-input">
                         </div>
                         <div class="form-contact-field">
-                            <textarea name="text" id="" cols="60" rows="30"></textarea>
+                            <label for="name" class="form-contact-label">Чаго надо?</label>
+                            <textarea name="text" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="form-contact-field">
                             <input id="confirm" type="checkbox" class="form-contact-checkbox">
@@ -278,6 +355,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

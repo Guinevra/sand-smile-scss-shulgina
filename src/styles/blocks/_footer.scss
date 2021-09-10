@@ -6,9 +6,7 @@
 }
 
 .footer-inner {
-    width: 1440px;
-    margin: 0 auto;
-    border: 1px solid #000;
+    @include container();
 }
 
 .footer-wrap {
@@ -18,7 +16,7 @@
 }
 
 .footer-wrap p {
-    margin: 0;
+    margin-left: 81px;
 }
 
 .copyright {
@@ -28,10 +26,8 @@
 
 .footer-list {
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    padding-left: 16px;
-    margin: 0;
+    width: 13%;
+    margin-right: 81px;
     list-style: none;
 }
 
@@ -46,10 +42,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    color: #fbf2da;
 }
 
 .footer-icon-insta {
-    background-image: url("/www/icons/insta.svg");
+    background-image: url('../icons/insta.svg');
 }
 
 .footer-icon-facebook {
@@ -58,12 +55,4 @@
 
 .footer-icon-telega {
     background-image: url("/www/icons/telega.svg");
-}
-
-.services-item:nth-child(2n+1) {
-    padding-right: 15px;
-}
-
-.services-item:nth-child(2n) {
-    padding-left: 15px;
 }

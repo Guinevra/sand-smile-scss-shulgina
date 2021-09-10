@@ -1,0 +1,19 @@
+.btn {
+    display: block;
+    margin: 144px 121px 33px 121px;
+    padding: 15px 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    border: 3px solid $after-main-color;
+    border-radius: 5px;
+    background-color: $after-main-color;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-contacts {
+    margin-left: 0;
+    padding: 15px 357px;
+}
