@@ -1,25 +1,22 @@
 .promo {
-    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    background-image: url('../../../images/promo-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
+    background-size: contain;
 }
 
 .promo-inner {
     @include container;
 }
 
-.promo-wrap {
-    display: flex;
-}
-
 .promo-info {
-    padding: 191px 171px 235px 170px;
+    margin: 0 auto;
 }
 
-.promo h1 {
-    margin: 0 auto;
-    padding: 0;
+.promo-logo {
+    padding-left: 430px;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 116px;
@@ -28,12 +25,12 @@
     text-align: center;
 }
 
-.promo-text {
+.promo-title {
     margin: 0 auto;
+    padding-left: 170px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 43px;
     color: #fff;
-    text-align: center;
 }

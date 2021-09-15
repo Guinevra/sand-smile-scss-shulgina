@@ -1,93 +1,78 @@
     .classes {
         margin: 0 auto;
     }
-    
+
     .classes-inner {
         @include container;
     }
-    
+
     .classes-title {
         @include h2;
     }
-    
-    .classes-info {
+
+    .classes-list {
         display: flex;
-        flex-wrap: wrap;
     }
-    
-    .classes h3 {
+
+    .title {
         font-family: "Raleway", sans-serif;
         font-weight: 300;
         font-size: 36px;
         line-height: 42px;
         text-align: center;
     }
-    
-    .classes-list {
+
+    .classes-item {
+        padding: 15px;
+        margin-bottom: 100px;
+        flex-direction: column;
         width: 33.33%;
-        padding: 0 15px;
+        font-family: "Open Sans", sans-serif;
     }
-    
-    .classes-image {
-        display: block;
-        // width: 100%;
-        // height: 100%;
-        // object-fit: cover;
+
+    .class-card {
+        align-items: center;
     }
-    
-    .classes-main ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        border: 1px solid #000;
-    }
-    
-    // .classes-list {
+
+    // .class-main {
     //     flex-grow: 1;
     // }
-    .classes-item {
-        font-family: "Open Sans", sans-serif;
+    .class-main ul {
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .class-text-item {
+        padding: 0;
         font-size: 20px;
         line-height: 16px;
         text-align: center;
         color: #152b3c;
-        padding: 0;
     }
-    
-    .classes-text {
-        font-family: "Open Sans", sans-serif;
+
+    .class-text {
         font-size: 18px;
         line-height: 25px;
         text-align: center;
         color: #152b3c;
     }
-    
-    .price {
-        font-family: "Open Sans", sans-serif;
+
+    .class-text-item span {
+        font-weight: 700;
+        color: $after-main-color;
+    }
+
+    .class-price {
+        margin: 0 auto;
+        padding: 5px;
+        font-weight: 600;
         font-size: 28px;
         line-height: 38px;
         text-align: center;
-        color: #d46240;
+        color: $after-main-color;
     }
-    
-    // .btn {
-    //     display: block;
-    //     margin: 144px 121px 33px 121px;
-    //     padding: 15px 30px;
-    //     font-family: "Open Sans", sans-serif;
-    //     font-size: 24px;
-    //     line-height: 33px;
-    //     text-align: center;
-    //     border: 3px solid $after-main-color;
-    //     border-radius: 5px;
-    //     background-color: $after-main-color;
-    //     color: #fff;
-    //     cursor: pointer;
-    // }
-    .classes-item:nth-child(2n+1) {
-        padding-right: 15px;
-    }
-    
-    .classes-item:nth-child(2n) {
-        padding-left: 15px;
+
+    .class-btn {
+        margin-top: auto;
     }

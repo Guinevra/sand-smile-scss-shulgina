@@ -1,0 +1,64 @@
+.locations {
+    margin: 0 auto;
+}
+
+.locations-inner {
+    @include container;
+}
+
+.locations h2 {
+    @include h2;
+}
+
+.team-members {
+    display: flex;
+    margin: 0 81px;
+}
+
+.team-item {
+    width: 25%;
+    padding: 16px;
+    a {
+        &:hover {
+            border: 5px solid $after-main-color;
+        }
+    }
+}
+
+.team-link {
+    display: block;
+    position: relative;
+    color: #fbf2da;
+}
+
+.team h2 {
+    @include h2;
+}
+
+.team-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(21, 43, 60, 0.7)
+}
+
+.team-img {
+    display: block;
+    width: 100%;
+}
+
+.team-desc {
+    margin: 0 81px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #152b3c;
+}
+
+.team h3 {
+    @include h3;
+    text-align: left;
+}

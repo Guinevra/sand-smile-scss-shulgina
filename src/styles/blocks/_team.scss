@@ -1,13 +1,13 @@
 .team {
     margin: 0 auto;
-    background-color: $background-color-inner;
 }
 
 .team-inner {
     @include container;
+    background-color: $background-color-inner;
 }
 
-.team-wrap {
+.team-list {
     display: flex;
     margin: 0 81px;
 }
@@ -15,12 +15,23 @@
 .team-item {
     width: 25%;
     padding: 16px;
+    border: 1px solid transparent;
+    a {
+        &:hover {
+            border-color: $after-main-color;
+            border-radius: 8px;
+        }
+    }
 }
 
 .team-link {
     display: block;
     position: relative;
     color: #fbf2da;
+}
+
+.team h2 {
+    @include h2;
 }
 
 .team-name {
@@ -30,10 +41,25 @@
     width: 100%;
     padding: 10px;
     text-align: center;
-    background-color: rgba(21, 43, 60, 0.7)
+    background-color: rgba(21, 43, 60, 0.7);
+    border-radius: 0 0 8px 8px;
 }
 
 .team-img {
     display: block;
     width: 100%;
+    border-radius: 8px;
+}
+
+.team-desc {
+    margin: 0 81px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #152b3c;
+}
+
+.team-title {
+    @include h3;
+    text-align: left;
 }

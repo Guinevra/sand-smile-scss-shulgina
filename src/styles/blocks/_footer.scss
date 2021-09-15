@@ -24,18 +24,18 @@
     line-height: 28px;
 }
 
-.footer-list {
+.social-icons {
     display: flex;
     width: 13%;
     margin-right: 81px;
     list-style: none;
 }
 
-.footer-item {
-    width: 50%;
+.social-icons-item {
+    width: 33.33%;
 }
 
-.footer-icon {
+.social-icon {
     display: block;
     width: 26px;
     height: 26px;
@@ -45,14 +45,14 @@
     color: #fbf2da;
 }
 
-.footer-icon-insta {
+.social-icons-insta {
     background-image: url('../icons/insta.svg');
 }
 
-.footer-icon-facebook {
-    background-image: url("/www/icons/facebook.svg");
+.social-icons-facebook {
+    background-image: url('../icons/facebook.svg');
 }
 
-.footer-icon-telega {
-    background-image: url("/www/icons/telega.svg");
+.social-icons-telega {
+    background-image: url('../icons/telega.svg');
 }

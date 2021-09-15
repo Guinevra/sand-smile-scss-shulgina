@@ -1,16 +1,19 @@
 .contacts {
-    // padding-top: 100px;
-    padding-bottom: 90px;
+    color: #152b3c;
 }
 
 .contacts-inner {
     @include container;
+    a {
+        color: $after-main-color;
+    }
 }
 
 .contacts-desc {
-    width: 100% / 12 * 7;
-    margin: 0 299px;
+    margin: 0 190px;
     text-align: center;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 .contacts-title {
@@ -23,12 +26,7 @@
 }
 
 .form-contact {
-    width: 100% / 12 * 7;
-}
-
-.contacts-info {
-    width: 100% / 12 * 4;
-    background-color: #2d2d2d;
+    width: 100% / 12 * 8;
 }
 
 // Форма
@@ -72,24 +70,29 @@ textarea {
 }
 
 .form-contact-label {
+    padding: 10px;
     font-family: inherit;
     font-size: 20px;
     line-height: 27px;
-    padding: 10px;
+    color: $after-main-color;
 }
 
 .form-contact-checkbox {
-    display: none;
+    margin: 0;
+    // display: none;
+    &+.form-contact-label {
+        color: #152b3c;
+    }
     &+.form-contact-label:before {
         content: '';
         display: inline-block;
         width: 32px;
         height: 32px;
+        background-image: url('../icons/ic_round-check-box.svg');
         border-radius: 4px;
         border: 2px solid #000;
     }
     &:checked+.form-contact-label:before {
         box-shadow: inset 0 0 0 2px #fff;
-        background-color: $after-main-color;
     }
 }
