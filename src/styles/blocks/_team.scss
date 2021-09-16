@@ -15,22 +15,21 @@
 .team-item {
     width: 25%;
     padding: 16px;
-    border: 1px solid transparent;
-    a {
-        &:hover {
-            border-color: $after-main-color;
-            border-radius: 8px;
-        }
-    }
+    // border: 1px solid transparent;
 }
 
 .team-link {
     display: block;
     position: relative;
     color: #fbf2da;
+    border: 6px solid transparent;
+    &.active {
+        border-color: $after-main-color;
+        border-radius: 8px;
+    }
 }
 
-.team h2 {
+.team-title {
     @include h2;
 }
 
@@ -59,7 +58,7 @@
     color: #152b3c;
 }
 
-.team-title {
+.team-desc-title {
     @include h3;
     text-align: left;
 }

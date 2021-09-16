@@ -15,34 +15,37 @@
     justify-content: space-between;
 }
 
-.footer-wrap p {
-    margin-left: 81px;
-}
-
 .copyright {
+    margin-left: 81px;
     font-size: 20px;
     line-height: 28px;
 }
 
-.social-icons {
-    display: flex;
-    width: 13%;
-    margin-right: 81px;
-    list-style: none;
-}
-
 .social-icons-item {
-    width: 33.33%;
-}
-
-.social-icon {
     display: block;
-    width: 26px;
-    height: 26px;
+    width: 13.33%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     color: #fbf2da;
+}
+
+.social-icons {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    margin-right: 81px;
+    margin-left: auto;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: contain;
+    list-style: none;
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
 }
 
 .social-icons-insta {
@@ -55,4 +58,9 @@
 
 .social-icons-telega {
     background-image: url('../icons/telega.svg');
+}
+
+.social-icons-links {
+    display: block;
+    text-decoration: none;
 }
