@@ -1,8 +1,9 @@
-.slider {}
+.slider {
+    background-color: $background-color-inner;
+}
 
 .slider-inner {
     @include container;
-    background-color: $background-color-inner;
 }
 
 .slider-title {

@@ -1,5 +1,6 @@
 .locations {
     margin: 0 auto;
+    background-color: rgba(251, 242, 218, 0.2);
 }
 
 .locations-inner {
@@ -26,7 +27,8 @@
 .location-link {
     display: block;
     position: relative;
-    color: #fbf2da;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .locations-item-title {
@@ -43,8 +45,7 @@
     color: #fbf2da;
 }
 
-.location-img {
-    display: block;
+.location-card {
     width: 100%;
 }
 

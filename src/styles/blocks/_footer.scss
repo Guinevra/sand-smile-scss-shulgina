@@ -16,51 +16,49 @@
 }
 
 .copyright {
-    margin-left: 81px;
     font-size: 20px;
     line-height: 28px;
 }
 
+.social-icons-list {
+    display: flex;
+    list-style: none;
+}
+
 .social-icons-item {
+    margin: 0 5px;
+}
+
+.social-links-instagram {
     display: block;
-    width: 13.33%;
+    padding: 13px 13px;
+    text-decoration: none;
+    background-image: url("../icons/insta.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    color: #fbf2da;
+    background-size: contain;
 }
 
-.social-icons {
-    display: flex;
-    width: 26px;
-    height: 26px;
-    margin-right: 81px;
-    margin-left: auto;
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: contain;
-    list-style: none;
-    ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-}
-
-.social-icons-insta {
-    background-image: url('../icons/insta.svg');
-}
-
-.social-icons-facebook {
-    background-image: url('../icons/facebook.svg');
-}
-
-.social-icons-telega {
-    background-image: url('../icons/telega.svg');
-}
-
-.social-icons-links {
+.social-links-facebook {
     display: block;
     text-decoration: none;
+    padding: 13px 13px;
+    background-image: url("../icons/facebook.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.social-links-telegram {
+    display: block;
+    text-decoration: none;
+    padding: 13px 13px;
+    background-image: url("../icons/telega.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.social-links-text {
+    display: none;
 }

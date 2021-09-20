@@ -1,31 +1,30 @@
 .team {
     margin: 0 auto;
+    background-color: $background-color-inner;
 }
 
 .team-inner {
     @include container;
-    background-color: $background-color-inner;
 }
 
 .team-list {
     display: flex;
-    margin: 0 81px;
+    margin: 0 -15px;
 }
 
 .team-item {
     width: 25%;
-    padding: 16px;
-    // border: 1px solid transparent;
+    padding: 15px;
 }
 
 .team-link {
     display: block;
     position: relative;
     color: #fbf2da;
-    border: 6px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
     &.active {
-        border-color: $after-main-color;
-        border-radius: 8px;
+        box-shadow: 0 0 0 5px $after-main-color;
     }
 }
 
@@ -38,20 +37,19 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    font-size: 24px;
+    line-height: 33px;
     padding: 10px;
     text-align: center;
     background-color: rgba(21, 43, 60, 0.7);
-    border-radius: 0 0 8px 8px;
 }
 
 .team-img {
     display: block;
     width: 100%;
-    border-radius: 8px;
 }
 
 .team-desc {
-    margin: 0 81px;
     margin-bottom: 100px;
     font-size: 20px;
     line-height: 27px;

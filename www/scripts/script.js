@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    //Team
+
     $('.team-link').on('click', function(event) {
         event.preventDefault();
 
@@ -7,9 +9,13 @@ $(document).ready(function() {
         $(this).addClass('active');
     });
 
-    $('.location-link').on('click', function(event) {
-        event.preventDefault();
 
+
+
+    //Слайдер
+
+    $('.j-slider').slick({
+        dots: true
     });
 
 });

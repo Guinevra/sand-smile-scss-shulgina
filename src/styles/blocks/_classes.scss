@@ -1,5 +1,6 @@
     .classes {
         margin: 0 auto;
+        background-color: rgba(251, 242, 218, 0.2);
     }
 
     .classes-inner {
@@ -12,9 +13,38 @@
 
     .classes-list {
         display: flex;
+        margin-left: -16px;
+        margin-right: -16px;
     }
 
-    .title {
+    .classes-item {
+        padding: 0 16px;
+        // margin-bottom: 100px;
+        width: 33.33%;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .class-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid rgba(21, 43, 60, 0.1);
+        border-radius: 8px;
+    }
+
+    .card-image {
+        object-fit: fill;
+    }
+
+    .card-main {
+        margin-right: 16px;
+        margin-left: 16px;
+        flex-grow: 1;
+    }
+
+    .card-title {
         font-family: "Raleway", sans-serif;
         font-weight: 300;
         font-size: 36px;
@@ -22,43 +52,28 @@
         text-align: center;
     }
 
-    .classes-item {
-        padding: 15px;
-        margin-bottom: 100px;
-        flex-direction: column;
-        width: 33.33%;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .class-card {
-        align-items: center;
-    }
-
-    // .class-main {
-    //     flex-grow: 1;
-    // }
-    .class-main ul {
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-    }
-
-    .class-text-item {
-        padding: 0;
-        font-size: 20px;
-        line-height: 16px;
-        text-align: center;
-        color: #152b3c;
-    }
-
-    .class-text {
+    .card-main-text {
         font-size: 18px;
         line-height: 25px;
         text-align: center;
         color: #152b3c;
     }
 
-    .class-text-item span {
+    .card-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .card-list-item {
+        padding: 5px;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #152b3c;
+    }
+
+    .card-list-item span {
         font-weight: 700;
         color: $after-main-color;
     }
