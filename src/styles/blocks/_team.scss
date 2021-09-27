@@ -23,6 +23,11 @@
     color: #fbf2da;
     border-radius: 8px;
     overflow: hidden;
+    &:hover {
+        transition-duration: .5s;
+        transform: scale(1.1);
+        opacity: 1;
+    }
     &.active {
         box-shadow: 0 0 0 5px $after-main-color;
     }
@@ -54,6 +59,26 @@
     font-size: 20px;
     line-height: 27px;
     color: #152b3c;
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .team-desc-title {

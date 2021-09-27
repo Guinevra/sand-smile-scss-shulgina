@@ -4,11 +4,19 @@
 }
 
 .locations-inner {
-    @include container;
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid;
 }
 
 .locations-title {
-    @include h2;
+    margin-top: 100px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #d46240;
 }
 
 .locations-list {
@@ -26,9 +34,8 @@
 
 .location-link {
     display: block;
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
 }
 
 .locations-item-title {
@@ -38,6 +45,7 @@
     left: 0;
     padding-left: 30px;
     padding-right: 70px;
+    margin-bottom: 30px;
     font-family: "Open-sans", sans-serif;
     font-weight: 300;
     font-size: 40px;
@@ -46,15 +54,24 @@
 }
 
 .location-card {
+    position: relative;
     width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    &:hover {
+        cursor: pointer;
+        & .location-link {
+            left: 30;
+            transition-duration: .8s;
+            transition-timing-function: linear;
+            transform: translateY(-60px);
+        }
+    }
 }
 
 .location-text {
-    position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: 30px;
-    margin-bottom: 30px;
     font-family: "Open-sans", sans-serif;
     font-weight: 300;
     font-size: 24px;
