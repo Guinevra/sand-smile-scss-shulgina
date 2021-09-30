@@ -19,7 +19,30 @@ $(document).ready(function() {
 
     //Gallery
     $('.j-slider').slick({
-        dots: true
+        arrows: true,
+        infinite: true,
+        dots: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+        //для адаптива // responsive: [
+        //   {
+        //   breakpoint: 768,
+        //   settings: {
+        //   slidesToShow: 2
+        //   }
+        //   },
+        //   {
+        //   breakpoint: 550,
+        //   settings: {
+        //   slidesToShow: 1
+        //   }
+        //   }
+        //   ]
+
+
+
     });
 
 

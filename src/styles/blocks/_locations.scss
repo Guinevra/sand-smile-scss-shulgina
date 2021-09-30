@@ -58,8 +58,8 @@
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
     &:hover {
-        cursor: pointer;
         & .location-link {
             left: 30;
             transition-duration: .8s;

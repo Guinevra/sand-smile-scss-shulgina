@@ -1,11 +1,21 @@
-.slider {
-    background-color: $background-color-inner;
-}
+    .slider {
+        background-color: $background-color-inner;
+    }
 
-.slider-inner {
-    @include container;
-}
+    .slider-inner {
+        @include container;
+    }
 
-.slider-title {
-    @include h2;
-}
+    .slider-title {
+        @include h2;
+    }
+
+    .j-slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .slider-item {
+    //     width: 100%;
+    // }
