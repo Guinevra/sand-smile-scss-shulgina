@@ -1,5 +1,6 @@
 .team {
     margin: 0 auto;
+    padding: $section-indent 0;
     background-color: $background-color-inner;
 }
 
@@ -23,11 +24,6 @@
     color: #fbf2da;
     border-radius: 8px;
     overflow: hidden;
-    &:hover {
-        transition-duration: .5s;
-        transform: scale(1.1);
-        opacity: 1;
-    }
     &.active {
         box-shadow: 0 0 0 5px $after-main-color;
     }
@@ -55,7 +51,6 @@
 }
 
 .team-desc {
-    margin-bottom: 100px;
     font-size: 20px;
     line-height: 27px;
     color: #152b3c;

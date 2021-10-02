@@ -1,22 +1,15 @@
 .locations {
     margin: 0 auto;
+    padding: $section-indent 0;
     background-color: rgba(251, 242, 218, 0.2);
 }
 
 .locations-inner {
-    width: 1280px;
-    margin: 0 auto;
-    border: 1px solid;
+    @include container;
 }
 
 .locations-title {
-    margin-top: 100px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 300;
-    font-size: 58px;
-    line-height: 68px;
-    text-align: center;
-    color: #d46240;
+    @include h2;
 }
 
 .locations-list {
@@ -24,7 +17,6 @@
     flex-wrap: wrap;
     margin-left: -16px;
     margin-right: -16px;
-    margin-bottom: 100px;
 }
 
 .locations-item {

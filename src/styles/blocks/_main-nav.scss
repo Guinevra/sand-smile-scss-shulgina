@@ -1,10 +1,25 @@
 .main-nav {
-    margin: 0;
+    @media (min-width: $tablet + 1) {
+        display: block !important;
+    }
+    @media (max-width: $tablet) {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        width: 100%;
+    }
     ul {
         display: flex;
         margin: 0;
         padding: 0;
         list-style: none;
+        @media (max-width: $tablet) {
+            justify-content: center;
+        }
+        @media (max-width: $mobile) {
+            display: block;
+        }
     }
     li {
         padding: 0 15px;
@@ -14,6 +29,12 @@
         transition-timing-function: linear;
         &:hover {
             background-color: $after-main-color;
+            @media (max-width: $tablet) {
+                background-color: initial;
+            }
+        }
+        @media (max-width: $mobile) {
+            // margin: 0px 16px;
         }
     }
     a {
@@ -25,5 +46,9 @@
         line-height: 33px;
         color: inherit;
         text-decoration: none;
+        @media (max-width: $mobile) {
+            padding: 10px 0;
+            text-align: center;
+        }
     }
 }

@@ -1,5 +1,6 @@
     .classes {
         margin: 0 auto;
+        padding: $section-indent 0;
         background-color: rgba(251, 242, 218, 0.2);
     }
 
@@ -20,7 +21,6 @@
     .classes-item {
         display: flex;
         padding: 0 16px;
-        margin-bottom: 100px;
         width: 33%;
         font-family: "Open Sans", sans-serif;
     }

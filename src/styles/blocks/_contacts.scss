@@ -1,4 +1,5 @@
 .contacts {
+    padding: $section-indent 0;
     background-color: rgba(251, 242, 218, 0.2);
     color: #152b3c;
 }
@@ -33,7 +34,6 @@
 .form-contact {
     width: 100% / 12 * 8;
     margin-left: 200px;
-    margin-bottom: 100px;
 }
 
 // Форма

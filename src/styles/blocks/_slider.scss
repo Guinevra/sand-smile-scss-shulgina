@@ -1,5 +1,10 @@
     .slider {
+        padding: $section-indent 0;
         background-color: $background-color-inner;
+    }
+
+    .j-slider {
+        padding: 0;
     }
 
     .slider-inner {
@@ -10,12 +15,6 @@
         @include h2;
     }
 
-    .j-slider {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .slider-item img {
+        width: 100%;
     }
-
-    // .slider-item {
-    //     width: 100%;
-    // }

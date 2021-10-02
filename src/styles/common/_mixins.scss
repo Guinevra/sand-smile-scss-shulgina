@@ -1,11 +1,10 @@
 @mixin container {
     width: $width;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 @mixin h2 {
-    margin-top: 100px;
+    margin: 0 auto 50px;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 58px;
