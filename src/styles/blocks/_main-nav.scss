@@ -8,6 +8,7 @@
         left: 0;
         display: none;
         width: 100%;
+        background-color: #152b3c;
     }
     ul {
         display: flex;
@@ -23,8 +24,8 @@
     }
     li {
         padding: 0 15px;
-        background: transparent;
         transition-property: background;
+        background: transparent;
         transition-duration: .5s;
         transition-timing-function: linear;
         &:hover {

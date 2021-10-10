@@ -54,7 +54,10 @@ $(document).ready(function() {
     });
 
 
-
+    // Открытие.закрытие мобильного меню
+    $('.burger').on('click', function() {
+        $('.main-nav').slideToggle();
+    });
 
 
 });
